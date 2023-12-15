@@ -1,0 +1,127 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+a:link{color: white;}
+a:hover{color: #ff9500;}
+a:active{color: #afafaf;}
+a:visited{color: white}
+.menu a:hover{
+    background-color: #ff9500;
+}
+nav ul li a:hover{
+    background-color: #ff9500;
+}
+
+
+header{
+         height: 101px;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+
+
+}
+
+nav{
+    background-color: black ; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    
+}
+
+nav ul{
+    position: absolute;
+    width: 1152px;  
+    height: 101px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    width: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200px;
+    font-style: Bold ;
+    font-size: 22px;
+    letter-spacing: -0.4px; 
+    width: 370px;
+    height: 30px;
+    
+    
+}
+
+.box1{
+    background-image:url(img/back4.jpg);
+    width: 1920px;
+    height: 585px;
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+    top: 99px;
+}
+
+.box2{
+    background-image:url(img/back4-1.jpg);
+    width: 1920px;
+    height: 1910px;
+    position: absolute;
+    top: 684px;
+    background-size: cover;
+}
+
+.text1{
+    
+    width: 900px;
+    height: 120px;
+    position: absolute;
+    top: 1157px;
+    left: 410px;
+   
+
+}
+
+.text2{
+    
+    width: 900px;
+    height: 120px;
+    position: absolute;
+    top: 1469px;
+    left: 810px;
+
+}
+
+.text3{
+    
+    width: 900px;
+    height: 120px;
+    position: absolute;
+    top: 1845px;
+    left: 410px;
+
+}
+
+.text4{
+    
+    width: 900px;
+    height: 74px;
+    position: absolute;
+    top: 2208px;
+    left: 810px;
+
+}
